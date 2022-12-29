@@ -1,0 +1,195 @@
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+}
+ul {
+    list-style: none;
+}
+:root {
+    --brand-blue-color: #2196F3;
+    --main-title-text: #212121;
+    --secondary-text: #757575;
+}
+
+.site-nav .link {
+    color: var(--main-title-text);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.site-nav .link.current {
+    color: var(--brand-blue-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--brand-blue-color);
+}
+
+.header-logo {
+    color: var(--brand-blue-color);
+    font-family: Raleway;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.header-logo .colorsplit-header {
+    color: #000000;
+}
+
+.contact-links .mail:hover,
+.contact-links .mail:focus {
+    color: var(--brand-blue-color);
+}
+
+.contact-links .phone:hover,
+.contact-links .phone:focus {
+    color: var(--brand-blue-color);
+}
+
+.mail {
+    text-decoration: none;
+    color: var(--secondary-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
+.phone {
+    color: var(--secondary-text);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero .hero-title {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.button-hero {
+    background-color: var(--brand-blue-color);
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.87;
+    cursor: pointer;
+    border: none;
+}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #757575;
+}
+
+.what-we-do-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: 700;
+}
+
+.name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.speciality {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: var(--brand-blue-color);
+    font-family: Raleway;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.footer-logo .colorsplit-footer {
+    color: #ffffff;
+}
+
+.address {
+font-style: normal;
+}
+
+.map-location {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #ffffff;
+    text-decoration: none;
+}
+.mail-footer,
+.phone-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.picture-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.picture-description {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--secondary-text);
+}
+.button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background-color: #F5F4FA;
+    border: none;
+    cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: var(--brand-blue-color);
+    color: #ffffff;
+
+}
