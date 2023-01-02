@@ -2,6 +2,8 @@ body {
     background-color: #FFFFFF;
     color: #212121;
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 ul {
     list-style: none;
@@ -15,8 +17,8 @@ ul {
 .site-nav .link {
     color: var(--main-title-text);
     font-weight: 500;
-    font-size: 14px;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -30,7 +32,7 @@ color: var(--brand-blue-color);
 
 .header-logo {
     color: var(--brand-blue-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
@@ -55,15 +57,15 @@ color: var(--brand-blue-color);
     text-decoration: none;
     color: var(--secondary-text);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 .phone {
     color: var(--secondary-text);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .hero {
@@ -77,6 +79,7 @@ color: var(--brand-blue-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 
 .button-hero {
@@ -86,18 +89,18 @@ color: var(--brand-blue-color);
     line-height: 1.87;
     cursor: pointer;
     border: none;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.06em;
 }
 
 .benefits-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     text-transform: uppercase;
 }
 
 .benefits-text {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     color: #757575;
 }
@@ -116,7 +119,6 @@ color: var(--brand-blue-color);
     text-align: center;
     font-size: 36px;
     line-height: 1.17;
-    font-weight: 700;
 }
 
 .name-title {
@@ -126,7 +128,6 @@ color: var(--brand-blue-color);
 }
 
 .speciality {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
     color: #757575;
@@ -138,7 +139,7 @@ color: var(--brand-blue-color);
 
 .footer-logo {
     color: var(--brand-blue-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
@@ -154,24 +155,20 @@ font-style: normal;
 }
 
 .map-location {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     color: #ffffff;
     text-decoration: none;
 }
 .mail-footer,
 .phone-footer {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 .picture-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .picture-description {
     font-size: 16px;
@@ -186,6 +183,7 @@ font-style: normal;
     background-color: #F5F4FA;
     border: none;
     cursor: pointer;
+    font-family: inherit;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
